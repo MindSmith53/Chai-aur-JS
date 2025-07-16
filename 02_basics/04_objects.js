@@ -18,16 +18,17 @@ const user2 = {
 const obj1 = { a: 1, b: 2 };
 const obj2 = { c: 3, d: 4 };
 //const obj3 = Object.assign({}, obj1, obj2);
+// console.log(obj3 === obj1);
 
 const obj3 = { ...obj1, ...obj2 };
 // console.log(obj3);
 
-// console.log(obj3 === obj1);
 
 // console.log(user2.hasOwnProperty('name'));
 // console.log(Object.keys(User));
 // console.log(Object.values(User));
 // console.log(Object.entries(User));
 
+//* destructuring
 const { name: N } = User;
 console.log(N);

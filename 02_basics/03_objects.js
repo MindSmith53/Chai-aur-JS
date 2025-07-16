@@ -21,13 +21,12 @@ jsUser.greetings = function () {
 }
 // jsUser.greetings();
 
-function Greet(greeting) {
+jsUser.Greet = function (greeting) {
     if (!greeting) {
         console.log('Please provide a greeting');
         return;
     }
-    return `${greeting}, CODER!!`;
+    return `${greeting}, ${this.name}!!`;
 }
-const greeting = Greet('Hello');
+const greeting = jsUser.Greet('Hello');
 console.log(greeting);
-

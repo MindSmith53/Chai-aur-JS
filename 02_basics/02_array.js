@@ -15,4 +15,3 @@ console.log(usableArr);
 // Array.isArray
 // Array.from
 // Array.of
-
