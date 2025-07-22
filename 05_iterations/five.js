@@ -4,6 +4,12 @@ coding.forEach((item) => {
     //     console.log(`I love coding in ${item}!`);
 })
 
+const values = coding.forEach((item) => {
+    // console.log(item);
+    return item
+})
+// console.log(values); // This will log 'undefined' because forEach does not return a value
+
 function printMe(item) {
     console.log(`I love coding in ${item}!`);
 }
